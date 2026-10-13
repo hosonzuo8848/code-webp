@@ -30,7 +30,7 @@ on:
       list_file:
         description: '增量清单文件名(私有数据仓, 每行一个PDF绝对路径或书级目录路径)，空=整库'
         required: false
-        default: 'med_increment.txt'
+        default: ''
       cat_name:
         description: '目标顶层下二级分类目录名(可选)'
         required: false
